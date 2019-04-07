@@ -1,0 +1,41 @@
+body {
+    font-family: 'Verdana';
+    margin: 0;
+    padding: 0;
+
+}
+
+.calc {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    background-color: black;
+    padding: 5px;
+}
+
+.head {
+    color: white;
+    height: 25px;
+}
+
+.close {
+    float: right;
+}
+
+#inputText {
+    width: 100%;
+    padding: 10px 0 5px;
+    margin: 0 auto;
+    border: 0px;
+}
+
+.screen {
+    width: 100%;
+}
+
+.btn {
+    margin: 0;
+    padding: 5px;
+    width: 20%;
+    border: 0px;
+}
