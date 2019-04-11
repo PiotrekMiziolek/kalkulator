@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
 </head>
 
 <body>
     <div class="calc">
         <div class="head">
-            <span>kalkulator</span>
-            <button class="close">x</button>
+            <i class="fas fa-calculator"></i>
+            <span class="head-desc">kalkulator</span>
+            <i class="fas fa-window-close"></i>
         </div>
         <div class="screen">
             <input type="text" name="" id="inputText">
@@ -21,31 +24,32 @@
                 <button class="btn" id="seven">7</button>
                 <button class="btn" id="eight">8</button>
                 <button class="btn" id="nine">9</button>
-                <button class="btn" id="four">√</button>
-                <button class="btn" id="">p</button>
+                <button class="btn" id="four">+</button>
+                <button class="btn" id="multiply">×</button>
             </div>
             <div class="line">
-                <div class="button"></div>
-                <div class="button"></div>
-                <div class="button"></div>
-                <div class="button"></div>
-                <div class="button"></div>
+                <button class="btn" id="four">4</button>
+                <button class="btn" id="five">5</button>
+                <button class="btn" id="six">6</button>
+                <button class="btn" id="four">-</button>
+                <button class="btn" id="plus">÷</button>
             </div>
             <div class="line">
-                <div class="button"></div>
-                <div class="button"></div>
-                <div class="button"></div>
-                <div class="button"></div>
+                <button class="btn" id="one">1</button>
+                <button class="btn" id="two">2</button>
+                <button class="btn" id="three">3</button>
+                <button class="btn" id="c">√</button>
             </div>
             <div class="line">
-                <div class="button"></div>
-                <div class="button"></div>
-                <div class="button"></div>
-                <div class="button"></div>
+                <button class="btn btn-0" id="zero">0</button>
+                <button class="btn" id="point">,</button>
+                <button class="btn" id="clear">C</button>
+            </div>
+            <div class="result">
+                <button class="btn btn-result">=</button>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
